@@ -1,0 +1,88 @@
+Part Value          Description                               
+C1   22p                      
+C2   22p                          
+C3   100n                          
+C4   220u                 
+C5   100n                           
+C6   10u                  
+C7   100n                           
+C8   10u                  
+C9   100n                           
+C10  22p                            
+C11  22p                              
+IC1  PIC16F628A-I/P 8 Bit CMOS Microcontrollers               
+IC2  PIC18F452-I/P  Flash Microcontrollers                    
+IC3  4050N          Hex non-inverting BUFFER                  
+IC4  7805TV         Positive VOLTAGE REGULATOR                
+IC5  78L33          Positive VOLTAGE REGULATOR                
+IC6  74238N         1 of 8 noninverting DECODER/DEMULTIPLEXER 
+IC7  24LC256P       Serial EEPROM                             
+IC8  ULN2004        DRIVER ARRAY                              
+J1   POWER          DC POWER JACK                             
+Q1   20Mhz          CRYSTAL                                   
+Q2   10Mhz          CRYSTAL                                   
+R1   10k                             
+R2   10k                             
+R3   1k                              
+R4   10k                             
+R5   10k                             
+R6   1k                              
+R7   1k                              
+R8   2k                             
+R9   2k                              
+R10  4k7                             
+R11  4k7                          
+R12  4k7                             
+R13  220R                            
+R14  220R                            
+R15  220R                            
+R16  220R                            
+R17  220R                            
+R18  220R                            
+R19  220R                            
+R20  220R                            
+R21  220R                            
+R22  220R                            
+R23  220R                            
+R24  220R                            
+R25  220R                            
+R26  220R                            
+R27  220R                            
+R28  220R                            
+R29  220R                            
+R30  220R                            
+R31  220R                            
+R32  220R                            
+R33  220R                            
+R34  220R                            
+R35  220R                            
+R36  220R                            
+R37  220R                            
+R38  220R                            
+R39  220R                            
+R40  220R                            
+R41  0R                              
+R42  0R                              
+R43  47k                             
+R44  1k                              
+R45  0R                              
+R46  0R                              
+R47  0R                              
+R48  0R                              
+T1   BC547          NPN TRANSISTOR                            
+T2   BC547          NPN TRANSISTOR                            
+T3   BC547          NPN TRANSISTOR                            
+T4   BC547          NPN TRANSISTOR                            
+X1   VIDEO          .100" (2.54mm) Center Header - 8 Pin      
+X2   SERIAL         .100" (2.54mm) Center Header - 3 Pin      
+X3   RB7-RB0        .100" (2.54mm) Center Header - 8 Pin      
+X4   KEYBOARD       .100" (2.54mm) Center Header - 6 Pin      
+X5   RD7-RD4        .100" (2.54mm) Center Header - 4 Pin      
+X6   LED_POWER      .100" (2.54mm) Center Header - 2 Pin      
+X7   RD3-RD2        .100" (2.54mm) Center Header - 2 Pin      
+X8   RA0-RA3        .100" (2.54mm) Center Header - 4 Pin      
+X9   RA5-RE2        .100" (2.54mm) Center Header - 4 Pin      
+X10  RC0-RC2        .100" (2.54mm) Center Header - 3 Pin      
+X11  RD0-RD1        .100" (2.54mm) Center Header - 2 Pin      
+X12  RC5            .100" (2.54mm) Center Header - 2 Pin      
+X13  RELAYS         .100" (2.54mm) Center Header - 10 Pin     

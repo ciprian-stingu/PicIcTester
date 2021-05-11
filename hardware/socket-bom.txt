@@ -1,0 +1,47 @@
+Part Value             Description                             
+IC1  ZIF28             Narrow ZIF                           
+R1   0R                               
+R2   0R                               
+R3   0R                               
+R4   0R                               
+R5   0R                               
+R6   0R                               
+R7   0R                               
+R8   4k7                              
+R9   4k7                              
+R10  4k7                              
+R11  4k7                              
+R12  4k7                              
+R13  4k7                              
+R14  4k7                              
+R15  4k7                              
+R16  4k7                              
+R17  4k7                              
+R18  4k7                              
+R19  4k7                              
+R20  4k7                              
+R21  4k7                              
+R22  4k7                              
+R23  4k7                              
+R24  4k7                              
+R25  4k7                              
+R26  4k7                              
+R27  4k7                              
+R28  4k7                              
+R29  4k7                              
+R30  4k7                              
+R31  4k7                              
+R32  4k7                              
+R33  4k7                              
+R34  4k7                              
+R35  4k7                              
+X1   RB7-RB0           .100" (2.54mm) Center Header - 8 Pin   
+X2   RD7-RD4           .100" (2.54mm) Center Header - 4 Pin   
+X3   RC5               .100" (2.54mm) Center Header - 2 Pin   
+X4   RD3-RD2           .100" (2.54mm) Center Header - 2 Pin   
+X5   RA0-RA3           .100" (2.54mm) Center Header - 4 Pin   
+X6   RA5-RE2           .100" (2.54mm) Center Header - 4 Pin   
+X7   RC0-RC2           .100" (2.54mm) Center Header - 3 Pin   
+X8   RD0-RD1           .100" (2.54mm) Center Header - 2 Pin   
+X10  RELAY             .100" (2.54mm) Center Header - 11 Pin  
+ZX2  ZIF28				Normal ZIF            

@@ -1,0 +1,13 @@
+Part Value         Description                            
+K1                 5-12V Relay                        
+K2                 5-12V Relay                        
+K3                 5-12V Relay                        
+K4                 5-12V Relay                        
+K5                 5-12V Relay                        
+K6                 5-12V Relay                        
+K7                 5-12V Relay                        
+R1   0R                          
+R2   0R                          
+R3   0R                         
+X2   RELAY_IN      .100" (2.54mm) Center Header - 10 Pin  
+X3   RELAY_OUT     .100" (2.54mm) Center Header - 11 Pin  
