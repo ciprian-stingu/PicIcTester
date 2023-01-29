@@ -113,16 +113,32 @@ The tester will not respond if the line sent was processed correctly, but will s
 The following protocol is used in order to transmit a test case, one line at a time
 
 ```
-BEGIN
-NAME The Test Name (up to 14 chars)
-PINS Number of pins (up to 28 pins and even number)
-CASE The test case data (following chars are allowed: 0,1,L,H,G,V,X,C and has to match the number of IC pins)
+TEST BEGIN
+TEST NAME The Test Name (up to 14 chars)
+TEST PINS Number of pins (up to 28 pins and even number)
+TEST CASE The test case data (following chars are allowed: 0,1,L,H,G,V,X,C and has to match the number of IC pins)
 ... more test cases... up to 48 test cases
-END
+TEST END
 
 ```
 You can abort the test transmision using `ABORT`  
 After receiving the `END` keyword the tester will respond `Test data complete` and will be ready to run the test
+
+Example
+```
+TEST BEGIN
+TEST NAME 74244
+TEST PINS 20
+TEST CASE 10H0H0H0HG0H0H0H0H1V
+TEST CASE 11H1H1H1HG1H1H1H1H1V
+TEST CASE 00L0L0L0LG0L0L0L0L0V
+TEST CASE 01H1H1H1HG1H1H1H1H0V
+TEST CASE 00H0H0H0HG1L1L1L1L0V
+TEST CASE 01L1L1L1LG0H0H0H0H0V
+TEST CASE 01H0H1H0HG1L0H1L0H1V
+TEST CASE 10H1L0H1LG0H1H0H1H0V
+TEST END
+```
 
 ## Limitations in current implementation
 * Only one test case can be saved in tester eeprom memory
@@ -134,6 +150,8 @@ After receiving the `END` keyword the tester will respond `Test data complete` a
 * Maximum message length on UART is 79 characters
 * 7 relays are used to implement common power configuration for ICs
 
+## Supported ICs
+4000, 4001, 4002, 4009, 4049, 4010, 4050, 4011, 4012, 4013, 4015, 4016, 4066, 4017, 4018, 4019, 4020, 4022, 4023, 4024, 4025, 4027, 4028, 4029, 4030, 4031, 4040, 4041, 4042, 4043, 4044, 4048, 4049, 4051, 4053, 4066, 4068, 4069, 40106, 4070, 4071, 4072, 4073, 4075, 4076, 4077, 4078, 4081, 4082, 4093, 4094, 4098, 40106, 40160, 40162, 40161, 40163, 40174, 40175, 40192, 40193, 4501, 4503, 4506, 4510, 4511, 4512, 4518, 4519, 4520, 4529, 4532, 4543, 4572, 7400, 7403, 7437, 7438, 7401, 7402, 7428, 7404, 7405, 7406, 7414, 7416, 7407, 7417, 7408, 7409, 7410, 7412, 7411, 7413, 7418, 7420, 7440, 74140, 7415, 7421, 7422, 7425, 7426, 7427, 7430, 7432, 7442, 7446, 7447, 7450, 7451, 7452, 7455, 7458, 7460, 7461, 7462, 7465, 7472, 7474, 7475, 7485, 7486, 74107, 74109, 74112, 74113, 74123, 74125, 74126, 74132, 74133, 74136, 74137, 74138, 74139, 74145, 74147, 74148, 74151, 74153, 74157, 74158, 74160, 74161, 74162, 74163, 74164, 74165, 74166, 74173, 74174, 74175, 74182, 74190, 74191, 74192, 74193, 74194, 74195, 74237, 74242, 74243, 74244, 74251, 74253, 74257, 74258, 74259, 74260, 74266, 74280, 74283, 74292, 74293, 74294, 74298, 74365, 74366, 74367, 74368, 74373, 74374, 74375, 74386, 74390, 74393, 74589, 74595, 74597
 
 ## Assembled tester
 ![Inside](images/inside.jpg) ![Test](images/test.jpg)
